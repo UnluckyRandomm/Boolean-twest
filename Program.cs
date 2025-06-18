@@ -48,7 +48,7 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         const string dogruDeger = "ambata";
         Console.Write("Gir : ");

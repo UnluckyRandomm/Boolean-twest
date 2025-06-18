@@ -12,3 +12,4 @@ C:\Users\User\Desktop\Visual Code\Yeni2\obj\Debug\net9.0\refint\Yeni2.dll
 C:\Users\User\Desktop\Visual Code\Yeni2\obj\Debug\net9.0\Yeni2.pdb
 C:\Users\User\Desktop\Visual Code\Yeni2\obj\Debug\net9.0\Yeni2.genruntimeconfig.cache
 C:\Users\User\Desktop\Visual Code\Yeni2\obj\Debug\net9.0\ref\Yeni2.dll
+C:\Users\User\Desktop\Visual Code\Yeni2\obj\Debug\net9.0\Yeni2.sourcelink.json
