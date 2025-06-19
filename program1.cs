@@ -1,3 +1,5 @@
+using System.Data;
+
 namespace Yeni2;
 
 /*class Program1
@@ -47,6 +49,7 @@ class Program1
 }
 */
 
+/*
 class Program1
 {
     static void Main(string[] args)
@@ -72,5 +75,26 @@ class Program1
             Environment.Exit(0);
         }
 
+    }
+}
+*/
+class Program1
+{
+    static void Main(string[] args)
+    {
+        Console.Write("1 - 65536 arasında bir sayı gir: ");
+        int a = Convert.ToInt32(Console.ReadLine());
+        char ch = (char)a;
+        bool b = a >= 0 && a <= 65535;
+        if (b)
+        {
+            Console.WriteLine("Bunu Girdin : " + ch);
+        }
+        else
+        {
+            Console.WriteLine("Yanlışş Tekrar dene");
+            Environment.Exit(0);
+        }
+        Console.ReadKey();
     }
 }
