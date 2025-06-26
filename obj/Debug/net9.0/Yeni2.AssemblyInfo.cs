@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yeni2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+293efe5bf0da0076546c983a1c56fbeb028dd974")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4cb8a3178bf0f13f9c7b55dec6f52e566ae2ad9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yeni2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yeni2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

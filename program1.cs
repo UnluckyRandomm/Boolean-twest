@@ -1,7 +1,5 @@
 using System.Data;
 
-namespace Yeni2;
-
 /*class Program1
 {
     static void Main(string[] args)
@@ -78,9 +76,11 @@ class Program1
     }
 }
 */
+
+
 class Program1
 {
-    static void Main(string[] args)
+    static void Main2(string[] args)
     {
         Console.Write("1 - 65536 arasında bir sayı gir: ");
         int a = Convert.ToInt32(Console.ReadLine());
@@ -98,3 +98,4 @@ class Program1
         Console.ReadKey();
     }
 }
+
