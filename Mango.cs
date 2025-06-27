@@ -36,7 +36,7 @@
     }
 }
 */
-
+/*
 class Mango{
     static void Main(string[] args)
     {
@@ -67,6 +67,44 @@ class Mango{
         }
 
 
+        Console.ReadKey();
+    }
+}
+*/
+
+using System.Threading.Channels;
+
+class Mango
+{
+    static void Main(string[] args)
+    {
+        Console.Write("İlk Dik Kenarı gir: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+        bool isValid1 = a >= 0;
+        if (!isValid1)
+        {
+            Console.WriteLine("Bir kenar negatif olamaz");
+            Environment.Exit(0);
+        }
+        else
+        {
+            Console.Write("İkinci Dik Kenarı Gir: ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            bool isValid2 = b >= 0;
+            if (!isValid2)
+            {
+                Console.WriteLine("Bir kenar negatif olamaz");
+                Environment.Exit(0);
+            }
+            else
+            {
+                double a2 = Math.Pow(a, 2);
+                double b2 = Math.Pow(b, 2);
+                double c2 = a2 + b2;
+                double c = Math.Sqrt(c2);
+                Console.WriteLine("Hipotenüs: " + c);
+            }
+        }
         Console.ReadKey();
     }
 }
