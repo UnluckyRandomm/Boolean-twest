@@ -122,17 +122,27 @@ class Mango
         Console.CursorVisible = false;
         Console.Clear();
         Console.ResetColor();
+
+        //int long falan
+
         /*  Console.WriteLine("En Büyük İnteger: {0}", int.MaxValue);
           Console.WriteLine("En Küçük İnteger: {0}", int.MinValue);
           Console.WriteLine("En Büyük long: {0}", long.MaxValue);
           Console.WriteLine("En Küçük long: {0}", long.MinValue);*/
-        int x = 666;
+          //random ahh sayı 0_o
+            int x = 666;
 
-        Console.WriteLine("En Büyük Double değeri: {0}", double.MaxValue);
-        Console.WriteLine($"En Büyük Decimal Num: {decimal.MaxValue}");
-        Console.WriteLine($"Garip Sayı {x}");
-        Console.Write("Lütfen Bir Butona Basın: ");
+        //double - decimal falan :D
+
+        /* Console.WriteLine("En Büyük Double değeri: {0}",double.MaxValue);
+         Console.WriteLine($"En Büyük Decimal Num: {decimal.MaxValue}");
+         Console.WriteLine($"Garip Sayı {x}");*/
+        double pi = 3.14159265359;
+        double idk = 3.12412545451;
+        Console.WriteLine("Lütfen Bir Butona Basın Toplama için: ");
         Console.ReadKey();
+        Console.WriteLine("Hepsinin Toplamı = {0}", pi + x + idk);
+
 
     }
 }
