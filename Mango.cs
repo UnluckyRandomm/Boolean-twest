@@ -106,7 +106,7 @@ class Mango
                 double b2 = Math.Pow(b, 2);
                 double c2 = a2 + b2;
                 double c = Math.Sqrt(c2);
-                Console.WriteLine("Hipotenüs: " + c);
+                Console.WriteLine($"Hipotenüs: c");
             }
         }
         Console.ReadKey();
