@@ -129,19 +129,28 @@ class Mango
           Console.WriteLine("En Küçük İnteger: {0}", int.MinValue);
           Console.WriteLine("En Büyük long: {0}", long.MaxValue);
           Console.WriteLine("En Küçük long: {0}", long.MinValue);*/
-          //random ahh sayı 0_o
-            int x = 666;
+        //random ahh sayı 0_o
+        int x = 666;
 
         //double - decimal falan :D
 
         /* Console.WriteLine("En Büyük Double değeri: {0}",double.MaxValue);
          Console.WriteLine($"En Büyük Decimal Num: {decimal.MaxValue}");
          Console.WriteLine($"Garip Sayı {x}");*/
+        decimal pi0 = 3.141592M;
+        Console.WriteLine("Random Ahh Decimal {0}",pi0);
         double pi = 3.14159265359;
         double idk = 3.12412545451;
         Console.WriteLine("Lütfen Bir Butona Basın Toplama için: ");
         Console.ReadKey();
-        Console.WriteLine("Hepsinin Toplamı = {0}", pi + x + idk);
+        Console.WriteLine("Hepsinin Toplamı = {0}",
+            pi + x + idk);
+
+        float pi2 = 3.141592F;
+        float idk2 = 3.25848298F;
+        Console.WriteLine("Pi = {0} ve random syaı = {1}"
+            , pi2, idk2);
+
 
 
     }
