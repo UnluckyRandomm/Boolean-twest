@@ -106,7 +106,7 @@ class Mango
                 double b2 = Math.Pow(b, 2);
                 double c2 = a2 + b2;
                 double c = Math.Sqrt(c2);
-                Console.WriteLine($"Hipotenüs: c");
+                Console.WriteLine($"Hipotenüs: {c}");
             }
         }
         Console.ReadKey();
@@ -119,11 +119,20 @@ class Mango
 {
     static void Main(string[] args)
     {
-        Console.Write("What is Your Name: ");
-        string name = Console.ReadLine();
-        Console.Write("What is Your age: ");
-        int age = int.Parse(Console.ReadLine());
-        Console.WriteLine($"Merhaba {age} yaşındaki {name} !!!");
+        Console.CursorVisible = false;
+        Console.Clear();
+        Console.ResetColor();
+        /*  Console.WriteLine("En Büyük İnteger: {0}", int.MaxValue);
+          Console.WriteLine("En Küçük İnteger: {0}", int.MinValue);
+          Console.WriteLine("En Büyük long: {0}", long.MaxValue);
+          Console.WriteLine("En Küçük long: {0}", long.MinValue);*/
+        int x = 666;
+
+        Console.WriteLine("En Büyük Double değeri: {0}", double.MaxValue);
+        Console.WriteLine($"En Büyük Decimal Num: {decimal.MaxValue}");
+        Console.WriteLine($"Garip Sayı {x}");
+        Console.Write("Lütfen Bir Butona Basın: ");
+        Console.ReadKey();
 
     }
 }
