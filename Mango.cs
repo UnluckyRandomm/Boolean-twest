@@ -72,12 +72,16 @@ class Mango{
 }
 */
 
+/*
 using System.Threading.Channels;
 
 class Mango
 {
     static void Main(string[] args)
     {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.Clear();
         Console.Write("İlk Dik Kenarı gir: ");
         double a = Convert.ToDouble(Console.ReadLine());
         bool isValid1 = a >= 0;
@@ -106,5 +110,20 @@ class Mango
             }
         }
         Console.ReadKey();
+    }
+}
+*/
+using System.Security.Cryptography.X509Certificates;
+
+class Mango
+{
+    static void Main(string[] args)
+    {
+        Console.Write("What is Your Name: ");
+        string name = Console.ReadLine();
+        Console.Write("What is Your age: ");
+        int age = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Merhaba {age} yaşındaki {name} !!!");
+
     }
 }
