@@ -147,11 +147,51 @@ class Mango
             pi + x + idk);*/
 
         //float falan anladımmı beni ha 
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.Clear();
 
-        float pi2 = 3.141592F;
-        float idk2 = 3.25848298F;
-        Console.WriteLine("Pi = {0} ve random syaı = {1}"
-            , pi2, idk2);
+        Console.Write("Lütfen bir ondalıklı sayı girin: ");
+        decimal sayi1 = decimal.Parse(Console.ReadLine());
+        Console.Write("Lütfen ikinci ondalıklı sayıyı girin: ");
+        decimal sayi2 = decimal.Parse(Console.ReadLine());
+        Console.WriteLine("İkisinin toplamı: {0}",
+            sayi1 + sayi2);
+        Console.WriteLine("Ve decimal max tan çıkarılmış hali: {0}",
+            decimal.MaxValue - (sayi1 + sayi2));
+        Console.WriteLine("Devam Etmek İçin bir butana bas");
+        Console.ReadKey();
+        Console.Clear();
+        Console.Write("Lütfen 1 ile 20 arasında bir sayı gir (ondalıklı): ");
+        double x = double.Parse(Console.ReadLine());
+        double z = Math.Truncate(x);
+        bool y = x >= 1 || x <= 20;
+        bool ts = x == z;
+        if (y)
+        {
+            if (ts)
+            {
+                Console.WriteLine("Ondalıklı Dedim !!!");
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.WriteLine($"Girdiğin Sayı: {x}, ve türü: {x.GetType}");
+            }
+        }
+        else if (ts && y){
+            Console.WriteLine("Ne Diyon Oluuum");
+        }
+
+        else
+        {
+            Console.WriteLine("Geçersiz Sayı");
+            Environment.Exit(0);
+        }
+        Console.ReadKey();
+
+
+                
+
 
 
 
